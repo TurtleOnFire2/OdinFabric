@@ -187,7 +187,7 @@ object Vesuvius : Module(
     private fun GuiGraphicsExtractor.drawOverlay(isEditing: Boolean): Pair<Int, Int> {
         val dataToDisplay = if (isEditing) sampleChestData else currentChest
         var yOffset = 0
-        val maxWidth = 251
+        val maxWidth = 300
 
         val cost = "%,.0f".format(dataToDisplay?.cost)
         val profit = "%,.0f".format(dataToDisplay?.profit)
