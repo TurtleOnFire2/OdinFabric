@@ -78,6 +78,7 @@ object ModuleManager {
 
             // nether
             SupplyHelper, BuildHelper, RemovePerks, NoPre, PearlWaypoints, FreshTools, KuudraInfo, Misc, Vesuvius,
+            KuudraTracker,
 
             RenderTest,
         )
